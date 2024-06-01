@@ -2,6 +2,8 @@
 
 # Global Solution - Ocean Watch Mobile
 
+## ![Logo](./img/logo.png)
+
 Projeto criado para entrega de trabalho da FIAP, Global Solution ano 2, semestre 2. 
 OceanWatch Mobile é um aplicativo desenvolvido para facilitar o monitoramento e a conservação da vida marinha nas costas marítimas. Ele permite que os usuários relatem avistamentos de animais marinhos, incluindo informações detalhadas como localização, espécie avistada, comportamento observado e fotos.
 
