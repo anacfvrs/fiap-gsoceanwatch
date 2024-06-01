@@ -1,8 +1,9 @@
-# Sample Snack app
+# fiap-gsoceanwatch
 
-# OceanWatch Mobile
+# Global Solution - Ocean Watch Mobile
 
-OceanWatch Mobile é um aplicativo inovador desenvolvido para facilitar o monitoramento e a conservação da vida marinha nas costas marítimas. Ele permite que os usuários relatem avistamentos de animais marinhos, incluindo informações detalhadas como localização, espécie avistada, comportamento observado e fotos.
+Projeto criado para entrega de trabalho da FIAP, Global Solution ano 2, semestre 2. 
+OceanWatch Mobile é um aplicativo desenvolvido para facilitar o monitoramento e a conservação da vida marinha nas costas marítimas. Ele permite que os usuários relatem avistamentos de animais marinhos, incluindo informações detalhadas como localização, espécie avistada, comportamento observado e fotos.
 
 ## Funcionalidades Principais
 
@@ -27,11 +28,3 @@ OceanWatch Mobile é um aplicativo inovador desenvolvido para facilitar o monito
 - **Expo Image Picker:** Biblioteca para seleção de imagens e captura de fotos.
 - **Expo Location:** Biblioteca para obtenção de informações de localização do dispositivo.
 - **iNaturalist API:** API para acesso a dados sobre observações de biodiversidade.
-
-## Instalação e Execução
-
-1. **Clone o repositório:**
-
-   ```bash
-   git clone https://github.com/seu-usuario/oceanwatch-mobile.git
-   cd oceanwatch-mobile
