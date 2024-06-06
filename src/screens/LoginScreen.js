@@ -1,14 +1,12 @@
 import React, { useState } from 'react';
 import { View, Text, TextInput, TouchableOpacity, Image } from 'react-native';
-import styles from '../../styles/LoginScreen.style'; // Importe os estilos do arquivo separado
-import logo from '../../img/logo.png'; // Importe a imagem do logo
-
+import styles from '../../styles/LoginScreen.style'; 
+import logo from '../../img/logo.png'; 
 const LoginScreen = ({ navigation }) => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
   const handleLogin = () => {
-    // Lógica para realizar o login
     navigation.navigate('Home');
   };
 

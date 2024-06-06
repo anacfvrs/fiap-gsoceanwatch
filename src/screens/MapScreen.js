@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text } from 'react-native';
 import MapView, { Marker } from 'react-native-maps';
-import styles from '../../styles/MapScreen.style'; // Importe os estilos do arquivo separado
+import styles from '../../styles/MapScreen.style'; 
 
 const MapScreen = () => {
   const initialRegion = {

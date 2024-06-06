@@ -3,8 +3,8 @@ import { View, Text, TextInput, TouchableOpacity, Image, Switch, ScrollView, Key
 import * as ImagePicker from 'expo-image-picker';
 import * as Location from 'expo-location';
 import { Ionicons } from '@expo/vector-icons';
-import styles from '../../styles/ReportScreen.style'; // Importe os estilos do arquivo separado
-import logo from '../../img/logo.png'; // Importe a imagem do logo
+import styles from '../../styles/ReportScreen.style'; 
+import logo from '../../img/logo.png'; 
 
 const ReportScreen = ({ navigation }) => {
   const [location, setLocation] = useState('');
@@ -55,7 +55,6 @@ const ReportScreen = ({ navigation }) => {
   };
 
   const handleSubmit = () => {
-    // Validar se os campos obrigatórios estão preenchidos
     if (!location || !photo) {
       alert('Por favor, preencha todos os campos obrigatórios.');
       return;
@@ -72,7 +71,6 @@ const ReportScreen = ({ navigation }) => {
     };
 
     if (reportToAuthorities) {
-      // Lógica para enviar os dados do relatório para as autoridades
       fetch('https://api.authorities.example/report', {
         method: 'POST',
         headers: {
@@ -89,18 +87,17 @@ const ReportScreen = ({ navigation }) => {
         alert('Erro ao enviar relatório.');
       });
     } else {
-      // Lógica para enviar os dados do relatório para o mapa
       console.log('Relatório para o mapa:', reportData);
     }
 
-    // Navegar para outra tela ou exibir uma mensagem de sucesso
     navigation.goBack();
   };
 
   return (
     <KeyboardAvoidingView
-      style={{ flex: 1 }}
+      style={{ flex: 1, backgroundColor: '#00293B' }}
       behavior={Platform.OS === 'ios' ? 'padding' : 'height'}
+      keyboardVerticalOffset={Platform.select({ ios: 64, android: 84 })}
     >
       <ScrollView contentContainerStyle={styles.scrollContainer}>
         <View style={styles.container}>
@@ -172,6 +169,8 @@ const ReportScreen = ({ navigation }) => {
 };
 
 export default ReportScreen;
+
+
 
 
 

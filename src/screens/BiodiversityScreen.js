@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { View, Text, FlatList, Image } from 'react-native';
-import styles from '../../styles/BiodiversityScreen.style'; // Importe os estilos do arquivo separado
-import logo from '../../img/logo.png'; // Importe a imagem do logo
+import styles from '../../styles/BiodiversityScreen.style'; 
+import logo from '../../img/logo.png'; 
 
 const INATURALIST_API_URL = 'https://api.inaturalist.org/v1/observations?taxon_id=47178&per_page=10';
 

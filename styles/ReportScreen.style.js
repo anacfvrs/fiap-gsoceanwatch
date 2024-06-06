@@ -1,16 +1,22 @@
 import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
-  container: {
+  scrollContainer: {
     flexGrow: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#00293B',
     padding: 16,
   },
+  container: {
+    width: '100%',
+    backgroundColor: '#00293B',
+    padding: 16,
+    borderRadius: 5,
+  },
   logo: {
-    width: '50%',
-    height: '30%',
+    width: 100,
+    height: 100,
+    alignSelf: 'center',
     marginBottom: 20,
   },
   title: {
@@ -18,9 +24,9 @@ const styles = StyleSheet.create({
     color: '#fff',
     marginBottom: 20,
     fontFamily: 'Montserrat_700Bold',
+    textAlign: 'center',
   },
   fieldContainer: {
-    width: '100%',
     marginBottom: 20,
   },
   fieldLabel: {
@@ -45,11 +51,10 @@ const styles = StyleSheet.create({
   photoButton: {
     flexDirection: 'row',
     alignItems: 'center',
+    justifyContent: 'center',
     backgroundColor: '#0E6275',
     padding: 15,
     borderRadius: 5,
-    width: '100%',
-    alignItems: 'center',
     marginBottom: 20,
   },
   photoButtonText: {
@@ -59,8 +64,8 @@ const styles = StyleSheet.create({
     fontFamily: 'Roboto_700Bold',
   },
   photo: {
-    width: 100,
-    height: 100,
+    width: '100%',
+    height: 200,
     borderRadius: 5,
     marginBottom: 20,
   },
@@ -68,7 +73,6 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
-    width: '100%',
     marginBottom: 20,
   },
   switchLabel: {
@@ -80,7 +84,6 @@ const styles = StyleSheet.create({
     backgroundColor: '#0E6275',
     padding: 15,
     borderRadius: 5,
-    width: '100%',
     alignItems: 'center',
   },
   buttonText: {
@@ -91,6 +94,7 @@ const styles = StyleSheet.create({
 });
 
 export default styles;
+
 
 
 

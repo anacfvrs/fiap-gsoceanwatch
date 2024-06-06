@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, ScrollView, Image } from 'react-native';
-import styles from '../../styles/EducationScreen.style'; // Importe os estilos do arquivo separado
-import logo from '../../img/logo.png'; // Importe a imagem do logo
+import styles from '../../styles/EducationScreen.style'; 
+import logo from '../../img/logo.png'; 
 
 const EducationScreen = () => {
   const posts = [

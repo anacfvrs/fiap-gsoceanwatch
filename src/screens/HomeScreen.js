@@ -1,8 +1,8 @@
 import React from 'react';
 import { View, Text, TouchableOpacity, Image } from 'react-native';
-import { FontAwesome, FontAwesome5 } from '@expo/vector-icons'; // Importe ícones de diferentes pacotes
-import logo from '../../img/logo.png'; // Importe a imagem do logo
-import styles from '../../styles/HomeScreen.style'; // Importe os estilos do arquivo separado
+import { FontAwesome, FontAwesome5 } from '@expo/vector-icons';
+import logo from '../../img/logo.png'; 
+import styles from '../../styles/HomeScreen.style'; 
 
 const HomeScreen = ({ navigation }) => {
   return (
